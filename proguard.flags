@@ -1,0 +1,7 @@
+# Keep all Fragments in this package, which are used by reflection.
+-keep class com.codenamedroid.settings.activities.*
+-keep class com.codenamedroid.settings.activities.PowerWidget.*
+-keep class com.codenamedroid.settings.*
+-keep class com.codenamedroid.settings.utils.*
+-keep class com.codenamedroid.settings.widget.*
+-keep class com.codenamedroid.settings.switches.*

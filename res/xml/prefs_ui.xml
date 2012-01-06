@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+
+	<PreferenceCategory android:key="crt" android:title="@string/crt_settings_title">
+
+		<CheckBoxPreference android:key="crt_off"
+			android:title="@string/crt_off_settings_title" />
+
+	</PreferenceCategory>
+
+	<PreferenceCategory android:key="misc"
+		android:title="@string/misc_settings_title">
+
+		<Preference android:key="custom_carrier_label"
+			android:title="@string/custom_carrier_settings_title" />
+
+	</PreferenceCategory>
+
+</PreferenceScreen>

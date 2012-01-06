@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <!-- Generic -->
+    <string name="app_name">Codename Settings</string>
+    <string name="general_title">General</string>
+    
+    <!-- Headers -->
+    <string name="status_bar_settings_header">Status Bar Settings</string>
+    <string name="input_settings_header">Input Settings</string>
+    <string name="display_settings_header">Display Settings</string>
+    <string name="lockscreen_settings_header">Lockscreen Settings</string>
+    <string name="misc_settings_header">Misc Settings</string>
+    
+    <!-- Statusbar | Clock Widget -->
+    <string name="clock_widget_settings_title">Clock widget</string>
+    <string name="clock_title_enable">Show clock</string>
+    <string name="title_clock_ampm_entries">AM/PM style</string>
+    <string name="clock_colors_title">Colors</string>
+    <string name="clock_colors_settings">Clock colors</string>
+    <string name="clock_colors_rest_settings">Rest colors</string>
+    <string name="clock_settings_title">Clock widget</string>
+    <string name="clock_style_title">Clock style</string>
+    <string name="am_pm_style_title">AM PM style</string>
+    <string name="misc_clock_settings">Misc</string>
+    <string name="enable_alarm_clock_icon_title">Enable alarm icon</string>
+    <string name="enable_alarm_clock_icon_summary">After disabling/enabling, you must toggle your alarms for it to show up again. Or reboot.</string>
+    
+    <!-- Statusbar | Battery Widget -->
+    <string name="battery_settings_title">Battery Widget</string>
+    <string name="battery_title_text_widget">Show battery text</string>
+    <string name="battery_summary_text_widget">@null</string>
+    <string name="battery_title_text_widget_center">Center battery text</string>
+    <string name="battery_widget_settings_title">Battery widget</string>
+    
+    <!-- Statusbar | Notification Widget -->
+    <string name="title_widget_buttons">Notification widget</string>
+    <string name="title_expanded_widget">Notification widget</string>
+    <string name="summary_expanded_widget">Use the expanded views power widget</string>
+    <string name="title_expanded_hide_onchange">Hide on change</string>
+    <string name="summary_expanded_hide_onchange">Hide the notification pulldown after toggling a widget button</string>
+    <string name="title_expanded_hide_indicator">Hide indicator</string>
+    <string name="summary_expanded_hide_indicator">Hide the notification widgets indicators</string>
+    <string name="title_expanded_hide_scrollbar">Hide scrollbar</string>
+    <string name="summary_expanded_hide_scrollbar">Hide scrollbar when more than the maximum number of widget buttons are present.</string>
+    <string name="expanded_color_mask">Indicator color</string>
+    <string name="title_widget_picker">Widget buttons</string>
+    <string name="summary_widget_picker">Pick your widget buttons</string>
+    <string name="title_widget_order">Widget button order</string>
+    <string name="summary_widget_order">Order your widget buttons</string>
+    <string name="title_buttons">Buttons</string>
+    <string name="title_toggle_wifi">Toggle Wifi</string>
+    <string name="title_toggle_bluetooth">Toggle Bluetooth</string>
+    <string name="title_toggle_gps">Toggle GPS</string>
+    <string name="title_toggle_sound">Toggle Sound</string>
+    <string name="title_toggle_brightness">Toggle Brightness</string>
+    <string name="title_toggle_sync">Toggle Sync</string>
+    <string name="title_toggle_wifiap">Toggle Wifi AP</string>
+    <string name="title_toggle_screentimeout">Toggle Screentimeout</string>
+    <string name="title_toggle_mobiledata">Toggle Mobiledata</string>
+    <string name="title_toggle_lockscreen">Toggle Lockscreen</string>
+    <string name="title_toggle_networkmode">Toggle 2G/3G</string>
+    <string name="title_toggle_autorotate">Toggle Orientation</string>
+    <string name="title_toggle_airplane">Toggle Airplane mode</string>
+    <string name="title_toggle_flashlight">Toggle LED flashlight</string>
+    <string name="title_toggle_sleep">Go to sleep</string>
+    <string name="title_toggle_media_play_pause">Media: Toggle Play/Pause</string>
+    <string name="title_toggle_media_previous">Media: Skip to Previous</string>
+    <string name="title_toggle_media_next">Media: Skip to Next</string>
+    <string name="title_toggle_wimax">Toggle WiMAX</string>
+    <string name="title_toggle_lte">Toggle LTE</string>
+    <string name="title_button_modes">Button modes</string>
+    <string name="pref_brightness_mode_title">Brightness modes</string>
+    <string name="pref_brightness_mode_summary">Choose how the brightness button changes modes</string>
+    <string name="brightness_mode_auto">Auto</string>
+    <string name="brightness_mode_dim">Dim</string>
+    <string name="pref_network_mode_title">Network modes</string>
+    <string name="pref_network_mode_summary">Choose how the NetworkMode button changes modes</string>
+    <string name="pref_screentimeout_mode_title">Screentimeout modes</string>
+    <string name="pref_screentimeout_mode_summary">Choose how the Screentimeout button changes modes</string>
+    <string name="pref_ring_mode_title">Sound modes</string>
+    <string name="pref_ring_mode_summary">Choose how the sound button changes modes</string>
+    <string name="sound_mode_silent">Silent</string>
+    <string name="sound_mode_vibrate">Vibrate</string>
+    <string name="sound_mode_sound">Sound</string>
+    <string name="sound_mode_soundVibrate">Sound+Vibrate</string>
+    <string name="pref_flash_mode_title">Flash mode</string>
+    <string name="pref_flash_mode_summary">Choose High / Death Ray</string>
+    <string name="expanded_haptic_feedback_title">Haptic Feedback</string>
+    <string name="expanded_haptic_feedback_summary">Enable/Disable haptic feedback.</string>
+    
+    <!-- Input Settings -->
+    <string name="input_settings_title">Input settings</string>
+    <string name="haptic_title">Haptic feedback tweaks</string>
+    <string name="haptic_summary">Adjust when and how strong haptic feedback occurs</string>
+    <string name="long_press_home_title">Long-press home settings</string>
+    <string name="long_press_home_summary">Number of recent applications, etc</string>
+    <string name="input_search_key_title">Search key behavior</string>
+    <string name="input_search_key_summary">Define custom actions for search key and long-press search key</string>
+    <string name="pref_input_custom_search_app_toggle_title">Search key app</string>
+    <string name="pref_input_custom_search_app_toggle_summary">Starts a custom app when pressing the search key</string>
+    <string name="pref_input_custom_search_app_activity_title">Custom application</string>
+    <string name="pref_input_custom_long_search_app_toggle_title">Long-press search app</string>
+    <string name="pref_input_custom_long_search_app_toggle_summary">Starts a custom app when long-pressing the search key</string>
+    <string name="pref_backtrack_title">BackTrack Minipad</string>
+    <string name="pref_backtrack_summary">Enable/disable BackTrack Minipad</string>
+    <string name="title_input_nav">Onscreen controls</string>
+    <string name="title_nav_controls_order">Onscreen controls order</string>
+    <string name="summary_nav_controls_order">Order your onscreen navigation buttons</string>
+    <string name="title_nav_hide_search">Show search button</string>
+    <string name="summary_nav_hide_search">Show/hide search button in navigation</string>
+    <string name="show_search_button_title">Show search button in nav bar</string>
+    <string name="persist_menu_title">Always show menu button</string>
+    
+    <!-- Backlight -->
+    <string name="backlight_settings_title">Automatic backlight</string>
+    <string name="backlight_summary">Tweak levels and filtering</string>
+    <string name="light_filter_title">Light sensor filter</string>
+    <string name="light_filter_enabled_title">Enabled</string>
+    <string name="light_filter_enabled_summary">Apply moving average filter to sensor data to reduce flicker</string>
+    <string name="light_filter_window_title">Window length</string>
+    <string name="light_filter_window_summary">Filtered value is the average sensor value during this period</string>
+    <string name="light_filter_reset_title">Reset threshold</string>
+    <string name="light_filter_reset_summary">Samples deviating this much from current average resets the filter</string>
+    <string name="light_filter_interval_title">Sample interval</string>
+    <string name="light_filter_interval_summary">Low value can improve accuracy but uses some more CPU</string>
+    <string name="light_levels_title">Light levels</string>
+    <string name="light_levels_enabled_title">Use custom</string>
+    <string name="light_levels_dim_title">Screen dim level</string>
+    <string name="light_levels_dim_summary">Brightness used to dim the screen</string>
+    <string name="light_levels_editor_title">Edit other levels\u2026</string>
+    <string name="light_decrease_enabled_title">Allow light decrease</string>
+    <string name="light_decrease_enabled_summary">Enable to allow lights to decrease. Use hysteresis to reduce flicker</string>
+    <string name="light_decrease_hysteresis_title">Decrease hysteresis</string>
+    <string name="light_decrease_hysteresis_summary">Sensor levels overlap this much downwards</string>
+    
+    <!-- Light sensor levels -->
+    <string name="ll_title">Light sensor levels</string>
+    <string name="ll_header_upper">Upper</string>
+    <string name="ll_header_lower">Lower</string>
+    <string name="ll_header_lcd">Screen</string>
+    <string name="ll_header_btn">Buttons</string>
+    <string name="ll_header_kb">Keyboard</string>
+    <string name="ll_lux">Sensor (filtered / raw):</string>
+    <string name="ll_lcd">Screen:</string>
+    <string name="ll_btn">Buttons:</string>
+    <string name="ll_kb">Keyboard:</string>
+    <string name="ll_disabled">disabled</string>
+    <string name="ll_default">Load defaults</string>
+    <string name="ll_save">Save &amp; apply</string>
+    <string name="ll_reload">Reload current</string>
+    <string name="ll_bad_levels">Levels must be increasing</string>
+    <string name="ll_num_levels">Set number of levels</string>
+    
+    <!-- Lockscreens -->
+    <string name="lockscreen_settings_title">Lockscreen</string>
+    <string name="title_pref_lockscreen_menu_unlock">Menu unlock</string>
+    <string name="summary_pref_lockscreen_menu_unlock">Legacy menu icon unlocks screen</string>
+    
+    <!-- Misc -->
+    <string name="misc_settings_title">Miscellaneous</string>
+    <string name="crt_settings_title">CRT animations</string>
+    <string name="crt_off_settings_title">CRT off animation</string>
+    <string name="custom_carrier_settings_title">Custom Carrier Label</string>
+    
+    <!-- Color Picker -->
+    <string name="dialog_color_picker">Color Picker</string>
+    <string name="press_color_to_apply">Press on Color to apply</string>   
+    <string name="arrow_right">→</string> 
+    <string name="arrow_down">↓</string>
+
+</resources>
