@@ -13,6 +13,7 @@ import com.codenamedroid.settings.R;
 
 public class Lockscreens extends Activity {
     private static final String PREF_MENU = "pref_lockscreen_menu_unlock";
+    private static final String QUAD_TARGETS = "pref_lockscreen_quad_targets";
 
     @Override
     public void onCreate(Bundle savedInstanceState) {
@@ -25,8 +26,10 @@ public class Lockscreens extends Activity {
     public class LockscreenPreferenceFragment extends PreferenceFragment {
 
         private static final String PREF_MENU = "pref_lockscreen_menu_unlock";
+        private static final String QUAD_TARGETS = "pref_lockscreen_quad_targets";
 
         CheckBoxPreference menuButtonLocation;
+        CheckBoxPreference mQuadTargets;
 
         @Override
         public void onCreate(Bundle savedInstanceState) {
@@ -39,6 +42,11 @@ public class Lockscreens extends Activity {
             menuButtonLocation.setChecked(Settings.System.getInt(getActivity()
                     .getContentResolver(), Settings.System.LOCKSCREEN_ENABLE_MENU_KEY,
                     1) == 1);
+            
+            mQuadTargets = (CheckBoxPreference) findPreference(QUAD_TARGETS);
+            mQuadTargets.setChecked(Settings.System.getInt(getActivity()
+                    .getContentResolver(), Settings.System.LOCKSCREEN_QUAD_TARGETS,
+                    0) == 1);
         }
 
         @Override
@@ -47,6 +55,12 @@ public class Lockscreens extends Activity {
             if (preference == menuButtonLocation) {
                 Settings.System.putInt(getActivity().getContentResolver(),
                         Settings.System.LOCKSCREEN_ENABLE_MENU_KEY,
+                        ((CheckBoxPreference) preference).isChecked() ? 1 : 0);
+                return true;
+
+            } else if (preference == mQuadTargets) {
+                Settings.System.putInt(getActivity().getContentResolver(),
+                        Settings.System.LOCKSCREEN_QUAD_TARGETS,
                         ((CheckBoxPreference) preference).isChecked() ? 1 : 0);
                 return true;
             }

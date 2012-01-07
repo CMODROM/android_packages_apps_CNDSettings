@@ -28,12 +28,12 @@ public class InterfaceList extends MasterLists {
         mList.add(new MasterLists.List(R.string.clock_settings_title, 0, "com.codenamedroid.settings.activities.StatusBarClock", TYPE_NORMAL));
         mList.add(new MasterLists.List(R.string.battery_settings_title, 0, "com.codenamedroid.settings.activities.StatusBarBattery", TYPE_SWITCH));
         mList.add(new MasterLists.List(R.string.title_expanded_widget, 0, "com.codenamedroid.settings.activities.PowerWidget", TYPE_SWITCH));
+        mList.add(new MasterLists.List(R.string.lockscreen_settings_header, 0, "com.codenamedroid.settings.activities.Lockscreens", TYPE_CATEGORY));
+        mList.add(new MasterLists.List(R.string.lockscreen_settings_title, 0, "com.codenamedroid.settings.activities.Lockscreens", TYPE_NORMAL));
         mList.add(new MasterLists.List(R.string.input_settings_header, 0, "com.codenamedroid.settings.activities.PowerWidget", TYPE_CATEGORY));
         mList.add(new MasterLists.List(R.string.title_input_nav, 0, "com.codenamedroid.settings.activities.NavButtons", TYPE_NORMAL));
         mList.add(new MasterLists.List(R.string.display_settings_header, 0, "com.codenamedroid.settings.activities.PowerWidget", TYPE_CATEGORY));
         mList.add(new MasterLists.List(R.string.backlight_settings_title, 0, "com.codenamedroid.settings.activities.Backlight", TYPE_SWITCH));
-        mList.add(new MasterLists.List(R.string.lockscreen_settings_header, 0, "com.codenamedroid.settings.activities.Lockscreens", TYPE_CATEGORY));
-        mList.add(new MasterLists.List(R.string.lockscreen_settings_title, 0, "com.codenamedroid.settings.activities.Lockscreens", TYPE_NORMAL));
         mList.add(new MasterLists.List(R.string.misc_settings_header, 0, "com.codenamedroid.settings.activities.PowerWidget", TYPE_CATEGORY));
         mList.add(new MasterLists.List(R.string.misc_settings_title, 0, "com.codenamedroid.settings.activities.MiscSettings", TYPE_NORMAL));
     }
