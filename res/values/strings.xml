@@ -88,21 +88,16 @@
     <string name="expanded_haptic_feedback_title">Haptic Feedback</string>
     <string name="expanded_haptic_feedback_summary">Enable/Disable haptic feedback.</string>
     
+    
+    <!-- Lockscreens -->
+    <string name="lockscreen_settings_title">Lockscreen</string>
+    <string name="title_pref_lockscreen_quad_targets">Quad Targets</string>
+    <string name="summary_pref_lockscreen_quad_targets">Adds Phone and Messaging shortcuts on the lock screen (Camera = hidden bottom target)</string>
+    <string name="title_pref_lockscreen_menu_unlock">Menu unlock</string>
+    <string name="summary_pref_lockscreen_menu_unlock">Legacy menu icon unlocks screen</string>
+    
     <!-- Input Settings -->
     <string name="input_settings_title">Input settings</string>
-    <string name="haptic_title">Haptic feedback tweaks</string>
-    <string name="haptic_summary">Adjust when and how strong haptic feedback occurs</string>
-    <string name="long_press_home_title">Long-press home settings</string>
-    <string name="long_press_home_summary">Number of recent applications, etc</string>
-    <string name="input_search_key_title">Search key behavior</string>
-    <string name="input_search_key_summary">Define custom actions for search key and long-press search key</string>
-    <string name="pref_input_custom_search_app_toggle_title">Search key app</string>
-    <string name="pref_input_custom_search_app_toggle_summary">Starts a custom app when pressing the search key</string>
-    <string name="pref_input_custom_search_app_activity_title">Custom application</string>
-    <string name="pref_input_custom_long_search_app_toggle_title">Long-press search app</string>
-    <string name="pref_input_custom_long_search_app_toggle_summary">Starts a custom app when long-pressing the search key</string>
-    <string name="pref_backtrack_title">BackTrack Minipad</string>
-    <string name="pref_backtrack_summary">Enable/disable BackTrack Minipad</string>
     <string name="title_input_nav">Onscreen controls</string>
     <string name="title_nav_controls_order">Onscreen controls order</string>
     <string name="summary_nav_controls_order">Order your onscreen navigation buttons</string>
@@ -110,6 +105,8 @@
     <string name="summary_nav_hide_search">Show/hide search button in navigation</string>
     <string name="show_search_button_title">Show search button in nav bar</string>
     <string name="persist_menu_title">Always show menu button</string>
+    <string name="nav_color_header">Color</string>
+    <string name="nav_color_setting">Navigation Bar Tint</string>
     
     <!-- Backlight -->
     <string name="backlight_settings_title">Automatic backlight</string>
@@ -150,13 +147,6 @@
     <string name="ll_reload">Reload current</string>
     <string name="ll_bad_levels">Levels must be increasing</string>
     <string name="ll_num_levels">Set number of levels</string>
-    
-    <!-- Lockscreens -->
-    <string name="lockscreen_settings_title">Lockscreen</string>
-    <string name="title_pref_lockscreen_quad_targets">Quad Targets</string>
-    <string name="summary_pref_lockscreen_quad_targets">Adds Phone and Messaging shortcuts on the lock screen (Camera = hidden bottom target)</string>
-    <string name="title_pref_lockscreen_menu_unlock">Menu unlock</string>
-    <string name="summary_pref_lockscreen_menu_unlock">Legacy menu icon unlocks screen</string>
     
     <!-- Misc -->
     <string name="misc_settings_title">Miscellaneous</string>

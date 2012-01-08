@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
-	<!-- Expanded View Power Widget -->
 	<PreferenceCategory
 		android:title="@string/general_title">
         <CheckBoxPreference
@@ -20,4 +19,13 @@
 			android:fragment="com.codenamedroid.settings.activities.NavButtons$NavButtonOrder">
 		</PreferenceScreen>
 	</PreferenceCategory>
+
+    <PreferenceCategory
+		android:title="@string/nav_color_header">
+        <net.margaritov.preference.colorpicker.ColorPickerPreference
+            android:key="nav_button_color"
+            android:title="@string/nav_color_setting"
+            android:defaultValue="#FFFFFF" />
+	</PreferenceCategory>
+    
 </PreferenceScreen>

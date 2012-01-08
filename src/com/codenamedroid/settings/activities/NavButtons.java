@@ -19,6 +19,7 @@ package com.codenamedroid.settings.activities;
 
 import java.util.ArrayList;
 
+import net.margaritov.preference.colorpicker.ColorPickerPreference;
 import android.app.Fragment;
 import android.app.ListFragment;
 import android.content.Context;
@@ -32,6 +33,7 @@ import android.preference.Preference.OnPreferenceChangeListener;
 import android.preference.PreferenceActivity;
 import android.preference.PreferenceScreen;
 import android.provider.Settings;
+import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -48,10 +50,12 @@ public class NavButtons extends PreferenceActivity implements OnPreferenceChange
     private static final String DEFAULT_LAYOUT = "back|home|recent|search0";
     private static final String PERSIST_MENU = "persist_menu";
     private static final String SHOW_SEARCH = "show_search";
+    private static final String PREF_NAV_COLOR = "nav_button_color";
 
     private CheckBoxPreference mShowSearch;
     private CheckBoxPreference mPersistMenu;
     private PreferenceScreen mButtonOrder;
+    ColorPickerPreference mNavigationBarColor;
 
     @Override
     public void onCreate(Bundle savedInstanceState) {
@@ -72,10 +76,25 @@ public class NavButtons extends PreferenceActivity implements OnPreferenceChange
             mPersistMenu.setChecked(Settings.System.getInt(getContentResolver(),
                 Settings.System.PERSIST_MENU, 0) == 1);
             
+            mNavigationBarColor = (ColorPickerPreference) findPreference(PREF_NAV_COLOR);
+            mNavigationBarColor.setOnPreferenceChangeListener(this);
+            
         }
     }
 
     public boolean onPreferenceChange(Preference preference, Object newValue) {
+        if (preference == mNavigationBarColor) {
+            String hex = ColorPickerPreference.convertToARGB(Integer.valueOf(String
+                    .valueOf(newValue)));
+            preference.setSummary(hex);
+            
+            int intHex = ColorPickerPreference.convertToColorInt(hex);
+            Settings.System.putInt(getApplicationContext().getContentResolver(),
+                                   Settings.System.NAVIGATION_BAR_TINT, intHex);
+            Log.e("ROMAN", intHex + "");
+            
+        }
+        
         return false;
     }
 
